@@ -1,0 +1,88 @@
+/* General */
+
+h1 {
+    font-size: 1.8rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 0.9rem;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+
+p {
+    font-size: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container-main {
+    background-color: lightgrey;
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading {
+    background-color: white;
+}
+
+.header-large {
+    text-align: center;
+}
+
+/* Cards */
+
+.container-small {
+background-color: white;
+max-width: 30rem;
+margin: auto;
+margin-top: 2rem;
+margin-bottom: 2rem;
+}
+
+.header-small {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.photo-title {
+    font-size: 1.2rem;
+}
+
+/* hr {
+    margin: auto;
+    color: lightgray;
+    margin-bottom: 0.5rem;
+    opacity: 0.5;
+} 
+
+.photo-date {
+float: right;
+} */
+
+img {
+    max-width: 27rem;
+}
+
+.containersm-footer {
+    box-sizing: border-box;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
